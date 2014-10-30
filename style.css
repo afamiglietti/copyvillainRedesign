@@ -1,3 +1,7 @@
+body {
+  font-size: 100%;
+}
+
 #container {
   margin: 0 12.5%;
 }
@@ -5,10 +9,14 @@
 .homepageContent {
   float: left;
   width: 33.3%;
+  font-size: .8em;
 }
 
 .homepageContent h4{
   float: left;
 }
 
+.homeBox {
+    height: 15em;
+}
 
