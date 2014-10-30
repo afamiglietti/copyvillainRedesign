@@ -6,17 +6,33 @@ body {
   margin: 0 12.5%;
 }
 
+#heading {
+  background-color: maroon;
+  color: yellow;
+}
+
 .homepageContent {
   float: left;
   width: 33.3%;
-  font-size: .8em;
+  font-size: .85em; 
 }
 
 .homepageContent h4{
   float: left;
 }
 
+.homepageContent h4{
+  float: left;
+  background-color: maroon;
+  color: yellow;
+}
+
+.homepageContent h3 {
+  background-color: maroon;
+  color: yellow;
+}
+
 .homeBox {
-    height: 15em;
+   height: 17em;
 }
 
