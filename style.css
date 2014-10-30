@@ -1,23 +1,27 @@
 body {
   font-size: 100%;
+  font-family: 'Lato', sans-serif;
+  background-color: gainsboro;
 }
 
+
 #container {
-  margin: 0 12.5%;
+  margin: 0 7.5%;
 }
 
 #heading {
-  background-color: maroon;
-  color: yellow;
+  background-color: darkred;
+  color: gold;
   padding: 1em;
   border-radius: 1em;
   margin-bottom: 5%;
+
 }
 
 #contentRow {
   overflow: auto;
   width: 100%;
-  border: 1px solid maroon;
+  background-color: white;
   border-radius: 1em;
 }
 
@@ -33,22 +37,21 @@ body {
 
 .homepageContent {
   float: left;
-  width: 33.333%;
-  font-size: .85em; 
+  width: 33.333%; 
 }
 
 .bottomMenu {
   float: left;
-  width: 46%;
-  background-color: maroon;
-  color: yellow;
-  padding: 2%;
+  width: 44%;
+  background-color: darkred;
+  color: gold;
+  padding: 3%;
   font-size: 1.1em;
 }
 
 .homeBox {
    height: 20em;
-   padding: 0 2%;
+   padding: 0 3%;
    overflow: auto;
 }
 
@@ -58,10 +61,10 @@ body {
 }
 
 .homepageContent h3 {
-  background-color: maroon;
-  color: yellow;
+  background-color: darkred;
+  color: gold;
   margin-bottom: .25em;
   margin-top: 0;
-  padding: 2%;
+  padding: 3%;
 }
 
