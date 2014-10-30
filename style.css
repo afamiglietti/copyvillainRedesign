@@ -9,30 +9,59 @@ body {
 #heading {
   background-color: maroon;
   color: yellow;
+  padding: 1em;
+  border-radius: 1em;
+  margin-bottom: 5%;
+}
+
+#contentRow {
+  overflow: auto;
+  width: 100%;
+  border: 1px solid maroon;
+  border-radius: 1em;
+}
+
+#heading h1{ 
+  font-size: 3em;
+  margin: 0;
+  margin-bottom: .5em;
+}
+
+#heading h2{ 
+  margin: 0;
 }
 
 .homepageContent {
   float: left;
-  width: 33.3%;
+  width: 33.333%;
   font-size: .85em; 
 }
 
-.homepageContent h4{
+.bottomMenu {
   float: left;
-}
-
-.homepageContent h4{
-  float: left;
+  width: 46%;
   background-color: maroon;
   color: yellow;
+  padding: 2%;
+  font-size: 1.1em;
+}
+
+.homeBox {
+   height: 20em;
+   padding: 0 2%;
+   overflow: auto;
+}
+
+.homeBox p {
+  margin: 0;
+  padding: 0;
 }
 
 .homepageContent h3 {
   background-color: maroon;
   color: yellow;
-}
-
-.homeBox {
-   height: 17em;
+  margin-bottom: .25em;
+  margin-top: 0;
+  padding: 2%;
 }
 
