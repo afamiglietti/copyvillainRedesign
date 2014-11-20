@@ -1,62 +1,116 @@
 body {
   font-size: 100%;
   font-family: 'Lato', sans-serif;
-  background-color: gainsboro;
+  background-color: aliceblue;
+  padding:0;
+  margin: 0;
 }
 
-
-#container {
-  margin: 0 7.5%;
+#tagline {
+  text-align: right;
+  float: right;
+  width: 33.3%;
+  margin-right: 1.5%;
 }
 
 #heading {
   background-color: darkred;
   color: gold;
-  padding: 1em;
-  border-radius: 1em;
-  margin-bottom: 5%;
-
+  margin-top: 0;
+  padding: .25em 0;
+  overflow: auto;
+  border-bottom: 1px solid gold;
+  position: absolute;
+  top:0px;
+  left:0px;
+  width: 100%;
 }
 
-#contentRow {
-  overflow: auto;
+#topNav {
   width: 100%;
-  background-color: white;
-  border-radius: 1em;
+  background-color: darkred;
+  color: gold;
+  margin-top: 0;
+  border-top: 1px solid gold;
+  overflow: auto;
+  padding: .2em 0;
+}
+
+#bottomNav {
+  width: 100%;
+  background-color: darkred;
+  color: gold;
+  margin-top: 0;
+  border-bottom: 1px solid gold;
+  overflow: auto;
+  padding: .25em 0;
+  clear: both;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+#mainContent {
+  position: absolute;
+  top: 110px;
+  left:0px;
 }
 
 #heading h1{ 
-  font-size: 3em;
-  margin: 0;
-  margin-bottom: .5em;
-}
-
-#heading h2{ 
-  margin: 0;
-}
-
-.homepageContent {
   float: left;
-  width: 33.333%; 
+  margin: 0;
+  padding: 0 0 .25em 0;
+  margin-left: 1.5%;
+}
+
+#topNav a {
+  display: block;
+  float: left;
+  color: gold;
+  width: 47%; 
+  font-size: 1.1em;
+  margin: 0 1.5%;
+  text-decoration: none;
+}
+
+#topNav a:hover {
+  color:white;
+}
+
+#bottomNav a {
+  display: block;
+  float: left;
+  color: gold;
+  width: 15.1665%; 
+  margin-left:1.5%;
+  text-decoration: none;
+}
+
+#bottomNav a:hover {
+  color:white;
 }
 
 .bottomMenu {
   float: left;
-  width: 44%;
+  width: 50%;
   background-color: darkred;
   color: gold;
-  padding: 3%;
   font-size: 1.1em;
 }
 
 .homeBox {
-   height: 20em;
-   padding: 0 3%;
-   overflow: auto;
+  float: left;
+  width: 47%; 
+  margin: 0 1.5%;
+  font-size: 1.05em;
+}
+
+#mainContent p {
+  margin: 0 1.5% 1em 1.5%;
 }
 
 .homeBox p {
-  margin: 0;
+  margin: 0 0 1em 0;
   padding: 0;
 }
 
@@ -65,6 +119,5 @@ body {
   color: gold;
   margin-bottom: .25em;
   margin-top: 0;
-  padding: 3%;
 }
 
